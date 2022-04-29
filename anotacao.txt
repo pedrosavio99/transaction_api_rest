@@ -1,0 +1,26 @@
+python3 manage.py runserver 8001
+
+pip install django-rest-auth
+
+python -m pip install django-allauth
+
+pip install bcrypt
+
+
+descompact o .idea kk
+
+=============================
+
+Get Post endpoint browser API previewOther available endpoints generate for posts by our viewset include
+
+http://127.0.0.1:8001/posts/ (POST,GET)
+http://127.0.0.1:8001/posts/:pk (GET, PUT, DELETE)
+http://127.0.0.1:8001/posts/:pk/comments (GET,POST)
+http://127.0.0.1:8001/posts/:pk/comments/:comment_id (DELETE)
+
+
+its generate similarly for Users the following
+http://127.0.0.1:8001/users/ (POST,GET)
+http://127.0.0.1:8001/users/:pk (GET, PUT, DELETE)
+
+pk here represent the primary key of the object you want to retrieve it data
